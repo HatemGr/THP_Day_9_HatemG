@@ -2,7 +2,18 @@
 
 #-----METHODES POUR JOURNALISTS.RB
 
-#
+def launch_menu_journalist ()
+  puts "Tapez le numero de la fonction que vous souhaitez utiliser:"
+puts "1 - Renvoie le nombre de handle dans la liste"
+puts "2 - Renvoie le handle le plus court"
+puts "3 - Renvoie le nombre de handle de longueur 5 (sans le @)"
+puts "4 - Renvoie le nombre de handle commençant pas une majuscule"
+puts "5 - Renvoie la liste de handle par order alphabetique"
+puts "6 - Renvoie la liste par ordre de longueur"
+puts "7 - Renvoie la position de @epenser"
+puts "8 - Renvoie la distribution de longueurs des handles"
+puts "quit - Quitter le programme"
+end
 
 #--1
 def list_length(liste)

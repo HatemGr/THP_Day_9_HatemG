@@ -1,3 +1,12 @@
+def launch_menu_crypto()
+  puts "Tapez le numero de la fonction que vous souhaitez utiliser:"
+  puts "1 - Renvoie la ou les crypto qui ont la plus grosse valeur"
+  puts "2 - Renvoie la ou les crypto qui ont la plus petite valeur"
+  puts "3 - Renvoie les devises dont le cours est inférieur à 6000"
+  puts "4 - Renvoie la devise la plus haute sous les 6000."
+  puts "quit - Quitter le programme"
+end
+
 #--0- Creation de my_hash
 def make_my_hash(liste1,liste2)
   my_hash = {}
