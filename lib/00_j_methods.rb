@@ -37,7 +37,7 @@ end
 
 #--5
 def alpha_sort (liste)
-  puts liste.sort_by {|handle| handle[1].downcase}
+  puts liste.sort_by(&:downcase)
 end
 
 #--6
